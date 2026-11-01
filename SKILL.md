@@ -1,10 +1,10 @@
 ---
 name: mimir
 description: >
-  Inspect, question assumptions, agree on scope, then build and verify the
-  smallest complete solution. Use for coding tasks that need scope agreement,
-  focused changes, and concise technical English, or when the user invokes
-  mimir. Exclude general factual questions.
+  Agree on scope, then build the smallest complete solution. Inspect the code
+  and question assumptions first, and verify the result after. Use for coding
+  tasks that need scope agreement, focused changes, and concise technical
+  English, or when the user invokes mimir. Exclude general factual questions.
 ---
 
 # Mimir

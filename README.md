@@ -30,12 +30,30 @@ manually installed skill, move that folder elsewhere before cloning.
 
 If the skill does not appear, restart Codex.
 
+## Install in Claude Code
+
+Claude Code reads personal skills from `~/.claude/skills`. Complete the clone
+step above, then link the skill into that folder:
+
+```sh
+mkdir -p ~/.claude/skills
+ln -s ../../.agents/skills/mimir ~/.claude/skills/mimir
+```
+
+If the skill does not appear, restart Claude Code.
+
 ## Use
 
 In Codex, include `$mimir` in your prompt:
 
 ```text
 $mimir Help me fix the login error.
+```
+
+In Claude Code, start your prompt with `/mimir`:
+
+```text
+/mimir Help me fix the login error.
 ```
 
 Mimir stays active for that conversation. Say `stop mimir` or `normal mode` to
