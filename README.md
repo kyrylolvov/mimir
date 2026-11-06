@@ -16,6 +16,14 @@ solution. Replies use concise, complete sentences informed by ASD-STE100.
 Clear writing applies throughout. Mimir uses short sentences and consistent
 terms. It does not claim formal ASD-STE100 compliance.
 
+Mimir applies the Karpathy principles throughout: state assumptions, choose simple
+solutions, keep edits focused, and verify explicit success criteria.
+
+Task files stay inside the target repository unless you explicitly permit another
+location. This includes one-off test scripts, diagnostics, and validation helpers.
+Agent-written scripts remain visible to Git and available for review after use.
+Mimir prefers existing project checks before creating custom scripts.
+
 ## Install in Codex
 
 On another laptop, clone this repository into your personal skills folder:
